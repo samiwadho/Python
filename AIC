@@ -4,3 +4,18 @@ print('I attedence batch 37 online Session')
 print('I live at Karachi "CITY OF LIGHT"')
 print('student of University of Sindh')
 print('Department of Computer Science')
+
+
+                #2 VARIABLES
+Name='Abdul Sami'
+PIAIC_batch= "37 Online"
+Age= 22
+Home_town="Karachi'City of light'"
+University_Name= "University of Sindh"
+Department="Computer Science"
+print("NAME =",Name)
+print("PIAIC batch =",PIAIC_batch)
+print("Age =",Age)
+print("Home town =",Home_town)
+print("University Name=",University_Name)
+print("Department =",Department)
