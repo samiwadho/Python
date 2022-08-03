@@ -1,10 +1,10 @@
 Pratice 1
 print ('     Grade')
-A=80
-B=70
-C=60
-D=50
-F=40
+Grade_A=80
+Grade_B=70
+Grade_C=60
+Grade_D=50
+Grade_F=40
 print("urdu       =",B-6)
 print("Chemisty   =",A-14)
 print("English    =",C+13)
