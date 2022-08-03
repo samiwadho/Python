@@ -1,1 +1,6 @@
-
+                #1 PRINT 
+print('My name is Abdul Sami')
+print('I attedence batch 37 online Session')
+print('I live at Karachi "CITY OF LIGHT"')
+print('student of University of Sindh')
+print('Department of Computer Science')
