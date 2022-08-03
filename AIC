@@ -19,3 +19,18 @@ print("Age =",Age)
 print("Home town =",Home_town)
 print("University Name=",University_Name)
 print("Department =",Department)
+
+
+                #2 VARIABLES with showing Data type
+Name='Abdul Sami'
+PIAIC_batch= "37 Online"
+Age= 22
+Home_town="Karachi'City of light'"
+University_Name= "University of Sindh"
+Department="Computer Science"
+print("NAME =",type(Name),Name)
+print("PIAIC batch =",type(PIAIC_batch),PIAIC_batch)
+print("Age =",type(Age),Age)
+print("Home town =",type(Home_town),Home_town)
+print("University Name=",type(University_Name),University_Name)
+print("Department =",type(Department),Department)
