@@ -1,0 +1,12 @@
+Pratice 1
+print ('     Grade')
+A=80
+B=70
+C=60
+D=50
+F=40
+print("urdu       =",B-6)
+print("Chemisty   =",A-14)
+print("English    =",C+13)
+print("Physic     =",B-10)
+print("Mathmentic =",B-12)
