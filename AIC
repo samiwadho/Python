@@ -34,3 +34,15 @@ print("Age =",type(Age),Age)
 print("Home town =",type(Home_town),Home_town)
 print("University Name=",type(University_Name),University_Name)
 print("Department =",type(Department),Department)
+
+
+
+                #3 number 
+num1 =5
+num2 =25
+num3 =4
+print(num1*num2)
+print(num1/num2)
+print(num1+num3*num2)
+print(num1+14*(10+num2)-140)
+print(num3*10+(num1-10)+num2)
