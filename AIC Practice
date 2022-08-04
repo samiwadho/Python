@@ -63,3 +63,16 @@ print(final_result)
 name = 'Sami'
 final_result= name+ ' Wadho '
 print('I am',final_result + str( 45) + ' year old'  )
+
+
+
+
+#input
+
+name = input('Enter your name !')
+age=input("Enter your Age ! ")
+print('Name = ',name)
+print('age = ',age ,'the datatype is',type(age))
+
+#NOTE It doesn't matter what datatype we enter . it datatype always string type you will seen the datype str 
+#at the age section
