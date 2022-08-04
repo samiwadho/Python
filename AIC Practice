@@ -76,3 +76,22 @@ print('age = ',age ,'the datatype is',type(age))
 
 #NOTE It doesn't matter what datatype we enter . it datatype always string type you will seen the datype str 
 #at the age section
+
+
+#CALCULATER
+
+operand1=input('enter number =')
+operand2=input('enter number =')
+
+result=operand1+operand2
+print('\n\noperand1+operand2=',result)
+
+#AS We know what ever datatype we input the number or boolen experssion the datatype remain in string type 
+# till that we give that any datatype value like below example "int"
+
+result=int(operand1)+int(operand2)
+print('\n\noperand1+operand2 =',result)
+
+
+#for showing operands values
+print('\n',operand1+'+'+operand2+'=',+result)
