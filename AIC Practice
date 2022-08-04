@@ -48,3 +48,18 @@ salary =10000
 increament=12
 salary-=increment
 print(salaryincreament)
+
+#Concentation
+
+NAME="Abdul"
+print(NAME,"Sami")
+#-----------------------OR-------------------------
+combining= 'Sami'
+final_result=combining+'Wadho'
+print(final_result)
+
+#most important part we can't concente intger with variable to therefore we change it's datatype 
+#for example
+name = 'Sami'
+final_result= name+ ' Wadho '
+print('I am',final_result + str( 45) + ' year old'  )
