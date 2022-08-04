@@ -95,3 +95,8 @@ print('\n\noperand1+operand2 =',result)
 
 #for showing operands values
 print('\n',operand1+'+'+operand2+'=',+result)
+
+
+
+ #if 
+# : ==> this show close of if state
