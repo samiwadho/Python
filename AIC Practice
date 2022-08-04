@@ -10,3 +10,14 @@ print("Chemisty   =",A-14)
 print("English    =",C+13)
 print("Physic     =",B-10)
 print("Mathmentic =",B-12)
+
+                #VARAIBLE
+age =12
+name ="Sami"
+is_adult=False
+temp_age=age
+age=17
+print(age,temp_age)
+print(type(age),age)
+print(name)
+print(temp_age)
