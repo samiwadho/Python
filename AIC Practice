@@ -33,3 +33,12 @@ a=10           #OK
                   #remainder
 print(15%2) 
 print(122%3)
+
+age=15
+age +=1
+print(age)
+salary=100000
+salary -=8000
+print(salary)
+print(salary+7000)
+
