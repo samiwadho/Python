@@ -133,3 +133,16 @@ print("sun")
 
 #Q7 Tell Python to display the first three letters of the alphabet in upper-case
 print("ABC")
+
+#Q8 Tell Python to display a string of your choice
+print("Abdul Sami")
+
+#Q9 Tell Python to display your first name.
+print("Abdul sami")
+
+#Q10 Tell Python to display the three-letter word for a canine. (1 word, lower-case)
+print("war")
+
+#Q11 tell pyton to display the "hello world" captical letter big
+print("Hello World")
+
