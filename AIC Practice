@@ -108,3 +108,20 @@ print('\n',operand1+'+'+operand2+'=',+result)
 
     #Q1 What keyword tells Python to display something on the screen?
 print('print')
+
+#Q2 Complete the line of code to tell Python to display the name of the oval object laid by a hen. (1 word, lower-case)
+print('sami')
+
+#Q3 Complete the line of code to tell Python to display the name of the oval object laid by a hen. (1 word, lower-case)
+
+#Answer
+#print________#("egg")
+
+#Q4 In the orange box type the next character. I'll autocomplete. Don't type spaces or carriage returns.
+#Tell Python to display the letter "e". 
+
+print('e')
+
+#Q5 Fail-safe coding. If you type the wrong character, I'll cancel the keystroke. Type spaces. When the exercise is complete, I'll turn the exercise number green.
+#Tell Python to display the name of our planet. (1 word, lower-case)
+print("earth")`
