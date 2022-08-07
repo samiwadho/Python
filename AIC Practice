@@ -100,3 +100,11 @@ print('\n',operand1+'+'+operand2+'=',+result)
 
  #if 
 # : ==> this show close of if state
+
+              
+              
+              
+              #A Smarter Way to Learn Python / Chapter 1 Exercises
+
+    #Q1 What keyword tells Python to display something on the screen?
+print('print')
