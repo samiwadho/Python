@@ -125,3 +125,11 @@ print('e')
 #Q5 Fail-safe coding. If you type the wrong character, I'll cancel the keystroke. Type spaces. When the exercise is complete, I'll turn the exercise number green.
 #Tell Python to display the name of our planet. (1 word, lower-case)
 print("earth")`
+
+
+#Q6 Tell Python to display the name of the star that makes life possible on earth. (1 word, lower-case)
+
+print("sun")
+
+#Q7 Tell Python to display the first three letters of the alphabet in upper-case
+print("ABC")
