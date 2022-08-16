@@ -23,8 +23,8 @@ print(name)
 print(temp_age)
 
 
-1alpha =20 #SHOULD NOT START WITH NUMBER 
-alpha.beat=21 #SPECIAL CHARACTER NOT ALLOWED
+#1alpha =20 #SHOULD NOT START WITH NUMBER 
+#alpha.beat=21 #SPECIAL CHARACTER NOT ALLOWED
 alpha_beat=21 #OK
 _=10           #OK
 a=10           #OK
@@ -45,9 +45,9 @@ print(salary+7000)
 
 
 salary =10000
-increament=12
+increment=12
 salary-=increment
-print(salaryincreament)
+print(salary)
 
 #Concentation
 
