@@ -96,24 +96,7 @@ print('\n\noperand1+operand2 =',result)
 #for showing operands values
 print('\n',operand1+'+'+operand2+'=',+result)
 
-
-
- #if 
-# : ==> this show close of if state
-
               
               
     
 
-
-
-                        #Way to Learn Python / Chapter 2 Exercises
-    
-#Q1 Because of the quotation marks, Python identifies the greeting below as a _______ (1 word, lowercase)
-#"Hello, World!"
-
-
-#Q2 Because there are no quotation marks, Python identifies the set of characters below as a _______.
-#country_of_origin
-
-#Answer :variable
