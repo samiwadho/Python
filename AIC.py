@@ -69,3 +69,12 @@ print(result_of_computation)
 
 total = (12+2)*(13+1)
 print(total)
+
+
+            #8 Concatenating text strings
+Full_Name="Abdul"+" Sami"+" Wadho"
+print(Full_Name)
+
+Department = "AI"+" (Artifical Intellgence)"+" At PIAIC"
+Batch =" Batch"+" 37"+" Online"
+print(Department + Batch)
