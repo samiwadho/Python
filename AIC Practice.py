@@ -1,4 +1,4 @@
-                    Practice  1
+                   # Practice  1
 print ('     Grade')
 Grade_A=80
 Grade_B=70
@@ -97,6 +97,14 @@ print('\n\noperand1+operand2 =',result)
 print('\n',operand1+'+'+operand2+'=',+result)
 
               
-              
+#type   
+Region = "Larkrana"
+portal_number ="77215"
+Nationatly ="Pakistan"
+salary=("$100000")
+print(type(Region),Region)
+print(type (portal_number),portal_number)
+print(Nationatly)
+print(salary)
     
 
