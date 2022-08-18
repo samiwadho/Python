@@ -46,3 +46,26 @@ print(num1/num2)
 print(num1+num3*num2)
 print(num1+14*(10+num2)-140)
 print(num3*10+(num1-10)+num2)
+
+            #7 Math expressions: Eliminating ambiguity
+  
+total_cost =1+(3*2)
+print(total_cost)
+
+total_cost =(1+3)*2
+print(total_cost)
+
+total_cost =((1+3)*2)
+print(total_cost)
+
+total_cost =(1+(3*2))
+print(total_cost)
+
+result_of_computation = (2 * 4) * 4 + 2
+print(result_of_computation)
+
+result_of_computation = ((2 * 4) * 4) + 2
+print(result_of_computation)
+
+total = (12+2)*(13+1)
+print(total)
