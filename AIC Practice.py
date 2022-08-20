@@ -111,3 +111,13 @@ print(salary)
 print("Hello!","Sami")
 greeting="Hello! Sami"
 print(greeting)
+
+greeting="Hello!"
+full="Sami"
+print(greeting+full)
+
+    #0R
+greeting="Hello!"
+full="Sami"
+whole=greeting+full
+print(whole)
