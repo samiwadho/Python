@@ -107,4 +107,7 @@ print(type (portal_number),portal_number)
 print(Nationatly)
 print(salary)
     
-
+        #8 Concatenating text strings
+print("Hello!","Sami")
+greeting="Hello! Sami"
+print(greeting)
