@@ -121,3 +121,18 @@ greeting="Hello!"
 full="Sami"
 whole=greeting+full
 print(whole)
+
+
+
+greeting ="Hello"
+punc="!"
+full = "Sami"
+print(greeting+punc+full)
+
+        #OR
+greeting ="Hello"
+punc="!"
+full = "Sami"
+whole=greeting+punc+full
+print(whole)
+
