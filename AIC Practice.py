@@ -148,3 +148,10 @@ Sami="\nSami = Hey! Abdul Ahad"
 Ahad2="\nAhad2= How are you Doing"
 intro=Ahad1+Sami+Ahad2
 print(intro)
+
+
+first_name="Sami"
+space=" "
+last_name="Wadho"
+greeting =first_name+space+last_name
+print(greeting)
