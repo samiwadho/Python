@@ -141,3 +141,10 @@ b= " Artifical Intellgence"
 con=a+b
 c="PIAIC"+con
 print(c)
+
+
+Ahad1="Ahad1 = Hello, Sami!"
+Sami="\nSami = Hey! Abdul Ahad"
+Ahad2="\nAhad2= How are you Doing"
+intro=Ahad1+Sami+Ahad2
+print(intro)
