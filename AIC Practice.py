@@ -136,3 +136,8 @@ full = "Sami"
 whole=greeting+punc+full
 print(whole)
 
+a=  " AI"
+b= " Artifical Intellgence"
+con=a+b
+c="PIAIC"+con
+print(c)
