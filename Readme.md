@@ -1,4 +1,4 @@
-                              In this repo we are going work on AIC there is list what we are going to do.
+                              In this repository we are going work on AIC there is list what we are going to do.
                   
                  Practice:
                        First we are going to practice all exericse and work which we learn
