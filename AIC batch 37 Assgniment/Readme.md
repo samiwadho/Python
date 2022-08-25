@@ -4,9 +4,9 @@
 
 
 Class 3
-Assginment 1 (make CV)
-Assignment 2 (Find Even Odd Number)
-Assignment 3 (Marks Sheet)
+ Assginment 1 (make CV)
+ Assignment 2 (Find Even Odd Number)
+ Assignment 3 (Marks Sheet)
 
 Class 5
 Assignment 1 (Multiplication Table)
