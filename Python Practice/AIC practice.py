@@ -155,3 +155,15 @@ space=" "
 last_name="Wadho"
 greeting =first_name+space+last_name
 print(greeting)
+
+
+
+                        #9 IF CONDITON 
+shop =int(input('shop ma kya kya ha!= '))
+
+if shop==1:
+    print('Milk')
+    print('oil')
+    print('eggs')
+else:
+    print('the shop is empty')
