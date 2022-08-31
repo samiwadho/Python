@@ -167,3 +167,22 @@ if shop==1:
     print('eggs')
 else:
     print('the shop is empty')
+    
+    
+    #2 making mark sheet 
+    
+    marks = int(input("Enter Marks = "))
+if marks > 80:
+    print("A")
+elif marks >70: 
+    print("B")
+elif marks > 60:
+    print("C")
+else:
+    print("F")
+    
+Student_Name = input("Please Enter the name ")
+Roll_Number = int(input("please Enter the Roll number"))
+print("Name = ",Student_Name)
+print("Roll Number = ",Roll_Number)
+print("Marks = ",marks,"/100")
