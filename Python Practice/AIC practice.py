@@ -186,3 +186,43 @@ Roll_Number = int(input("please Enter the Roll number"))
 print("Name = ",Student_Name)
 print("Roll Number = ",Roll_Number)
 print("Marks = ",marks,"/100")
+
+
+#marksheet work
+#1 first of all we are going to make total subject and there mark which will be defined by user
+Chemistry = int(input('Chemistry ='))
+physic = int(input('Physic = '))
+math = int(input('Math = '))
+Urdu = int(input('Urdu = '))
+
+#2 Now we make an analysis which is total mark and obtained mark 
+
+marks_Obtained = Chemistry+physic+math+Urdu
+total_Marks =400
+
+#3 after that we calculate percentage of total mark and obtained mark
+Grade = (marks_Obtained / total_Marks) * 100
+
+# 4 display the user input data
+
+name = input("Name :")
+Roll_No = int(input("Roll_No"))
+print("Marks :",marks_Obtained,"/",total_Marks)
+print("Chemistry :",Chemistry,"out of 100")
+print("Physic :",physic,"out of 100")
+print("Math \t:",math,"out of 100")
+print("Urdu \t:",Urdu,"out of 100")
+print("Per  \t:",Grade)
+
+
+# 3 these conditon is related to grade section where we defined 
+if Grade >=80:
+    print("A")
+elif Grade >=70 :
+    print("B")
+elif Grade >=60 :
+    print("C")
+elif Grade >= 50 :
+    print("D")
+else :
+    print("F")
