@@ -226,3 +226,29 @@ elif Grade >= 50 :
     print("D")
 else :
     print("F")
+    
+    
+    
+    # 15 list
+temperatures = [40,44,43,39,35,34]
+
+temperatures[0]=-45
+#the above value show that we rearrange previous values into new data
+
+temperatures.append(-56)
+print(temperatures[-1])
+#append is for adding new values
+
+print(temperatures)
+print(len(temperatures))
+
+# in python hertogenic data store  ,it mean we insert number or string in a single statement
+#example
+# temp_list =[10,"pakistan,true"]
+
+print(temperatures[0])
+#if we want to second temp
+print(temperatures[5])
+#we have to remember that we calcluate value by n-1 like we want to find 6 value to above we put 7 than we find 6
+print(temperatures[-2])
+#this is inverse section
