@@ -158,7 +158,7 @@ print(greeting)
 
 
 
-                        #9 IF CONDITON 
+                        #9 IF CONDITON  10 ELSE CONDITION 11 ELIF CONDITION
 shop =int(input('shop ma kya kya ha!= '))
 
 if shop==1:
