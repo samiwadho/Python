@@ -252,3 +252,11 @@ print(temperatures[5])
 #we have to remember that we calcluate value by n-1 like we want to find 6 value to above we put 7 than we find 6
 print(temperatures[-2])
 #this is inverse section
+
+
+
+#add two other city temp
+temperatures_karachi=[20,23,25,26,29,30]
+temperatures_Lahore=[34,30,40,38]
+temp_pk = temperatures_karachi+temperatures_Lahore
+print(temp_pk)
