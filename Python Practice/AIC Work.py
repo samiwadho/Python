@@ -78,3 +78,14 @@ print(Full_Name)
 Department = "AI"+" (Artifical Intellgence)"+" At PIAIC"
 Batch =" Batch"+" 37"+" Online"
 print(Department + Batch)
+
+
+              #9 IF CONDITON 
+shop =int(input('shop ma kya kya ha!= '))
+
+if shop==1:
+    print('Milk')
+    print('oil')
+    print('eggs')
+else:
+    print('the shop is empty')
