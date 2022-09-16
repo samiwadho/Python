@@ -1,4 +1,4 @@
-                   # Practice  1
+                                              # Practice  1
 print ('     Grade')
 Grade_A=80
 Grade_B=70
@@ -260,3 +260,13 @@ temperatures_karachi=[20,23,25,26,29,30]
 temperatures_Lahore=[34,30,40,38]
 temp_pk = temperatures_karachi+temperatures_Lahore
 print(temp_pk)
+
+#sub temp value
+temperatures=[1,2,3,[10,14,15,18],4,5,6]
+print(temperatures[0])
+print(temperatures[3])
+#if we want to find deep value of 3  which is [10,14,15,18] we find it like
+print(temperatures[3][2])# which is 15 after 14
+
+
+
