@@ -439,3 +439,21 @@ Merge = first_names+last_names
 print("\n\nMerge := ", Merge)
     
 
+                                    #nest for loop
+
+first_names = ["BlueRay ", "Upchuck ", "Lojack ","Gizmo ", "Do-Rag "]
+last_names = ["Zzz", "Burp", "Dogbone", "Droop"]
+full_names = []
+print("First_name : ",first_names)
+print("Last_name : ",last_names)
+
+# with for loop  to display list of name 
+for first_name in (first_names):
+    print("First_name =",first_name)
+
+for last_name in (last_names):
+    print("last_name =",last_name)
+    
+for  last_name in last_name:
+    full_names.append(first_name+' '+last_name)
+    print("full_names =",full_names)
