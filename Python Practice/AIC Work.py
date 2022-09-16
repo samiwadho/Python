@@ -117,5 +117,26 @@ print(temperatures[-2])
 #this is inverse section
  
  
+                             # 21 for loop
+num =[1,2,3,5,]
+
+for i in num :
+    print(i)
+
+# In this program the Grade will show in horzital way
+Grade = [40,50,60,70,80,90,100]
  
- 
+for assending in Grade :
+    print(assending)
+
+# In This program the temp list will printing in vertical way
+temp_karachi = [40,45,42,46,43,49,48]
+for temp in range(3):
+    print(temp_karachi)
+
+# In This program the temp list will printing in horzital way till the range you want like
+#  like here we want to print till 4
+temp_karachi = [40,45,42,46,43,49,48]
+for temp in range(4):
+    print("temp till the range we want =",temp_karachi[temp])
+    
