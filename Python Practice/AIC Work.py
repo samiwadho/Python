@@ -140,3 +140,23 @@ temp_karachi = [40,45,42,46,43,49,48]
 for temp in range(4):
     print("temp till the range we want =",temp_karachi[temp])
     
+    
+    
+    
+                     # 22 NEST FOR LOOP
+first_names = ["BlueRay ", "Upchuck ", "Lojack ","Gizmo ", "Do-Rag "]
+last_names = ["Zzz", "Burp", "Dogbone", "Droop"]
+full_names = []
+print("First_name : ",first_names)
+print("Last_name : ",last_names)
+
+# with for loop  to display list of name 
+for first_name in (first_names):
+    print("First_name =",first_name)
+
+for last_name in (last_names):
+    print("last_name =",last_name)
+    
+for  last_name in last_name:
+    full_names.append(first_name+' '+last_name)
+    print("full_names =",full_names)
