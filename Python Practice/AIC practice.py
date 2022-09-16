@@ -268,5 +268,36 @@ print(temperatures[3])
 #if we want to find deep value of 3  which is [10,14,15,18] we find it like
 print(temperatures[3][2])# which is 15 after 14
 
+temp = [1,2,3,[15,16,17,18],4,5]
+#add new value this is point that we add 1 value or we add list , we can't add 2 value 
+#like this temp.appand(6,7) this will show an error 
+#therefore 
+temp.append(6)
+print(temp)
+#-------------or--------------
+temp.append([6,7,8,9])
+print(temp)
+
+#if we extend same value ([6,7,8,9]) then it insert data like value not a list like intger 4,5,6,7,8,9 where as in appand this it look like [6,7,8,9]
+
+temp.extend([6,7,8,9])
+print(temp)
+#for insert new index and where you want  now want to insert new index 49 on places of 5 which is value is 4
+temp.insert(5,49)
+print(temp)
+
+
+# for finding what is place of inex 3
+print(temp.index(6)) #which is on the place of 2
+
+#for remove index we use
+
+print(temp.remove(3))
+
+#pop if you don't give index address then pop remove last index
+print(temp.pop)# which drop 9 
+
+
+#for remove index we from sub list which is([6,7,8,9])
 
 
