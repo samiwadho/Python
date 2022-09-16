@@ -418,5 +418,24 @@ for a in range(1) :
         print("yes")
     else :
         print("No")
+        
+        
+        
+        
+        
+        
+first_names = ["BlueRay ", "Upchuck ", "Lojack ","Gizmo ", "Do-Rag "]
+last_names = ["Zzz", "Burp", "Dogbone", "Droop"]
+full_names = []
+print("First_name : ",first_names)
+print("Last_name : ",last_names)
+
+#.extend list
+first_names.extend(last_names)
+print("\n\nMerge list by .extend list := ",first_names)
+
+#with concantion
+Merge = first_names+last_names
+print("\n\nMerge := ", Merge)
     
 
