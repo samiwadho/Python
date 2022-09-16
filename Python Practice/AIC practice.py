@@ -338,3 +338,23 @@ print(temp.pop)# which drop 9
 
 #for remove index we from sub list which is([6,7,8,9])
 
+
+
+
+
+num = [1,2]
+print(num)
+
+num.append(3)
+print(num)
+
+num.extend([4,5])
+print(num)
+
+num.append([6,7,8,9])
+print(num)
+
+print(num[4])
+
+print(num[5][2])
+
