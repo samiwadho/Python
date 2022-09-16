@@ -405,3 +405,18 @@ for city in range(2):
             print(" not Found")
 
         
+        
+        
+temp = [1,2,3,4,5,6]
+
+sum = 2
+
+for a in range(1) :
+    
+    
+    if sum == 5 :
+        print("yes")
+    else :
+        print("No")
+    
+
