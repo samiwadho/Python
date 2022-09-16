@@ -394,3 +394,14 @@ for C in range(len(cities)):
     else :
         print("not Found")
     
+    
+cities = ["Sukker", "Kamber","Larkana","Lahore"]
+
+city_beauty = "Kamber"
+for city in range(2):
+    if city_beauty == cities[city]:
+        print("Found")
+    else :
+            print(" not Found")
+
+        
