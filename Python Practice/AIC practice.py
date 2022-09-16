@@ -373,3 +373,24 @@ for C in range(len(cities)):
         print("Found")
     else :
         print("not Found")
+        
+        
+ 
+ 
+ # IN this example we are going to find city and if the city will found then it will brack on the spot
+
+cities = ["Karachi" ,"Qamber" ,"Larkana","Sukker"]
+
+city_of_light = "Karachi"
+city_of_beauty= "Sukker"
+
+for C in range(len(cities)):
+    if city_of_light.lower() == cities[C].lower():
+        print("Found")
+        break
+    elif  city_of_beauty == cities_tup:
+        print("Found")
+        break
+    else :
+        print("not Found")
+    
