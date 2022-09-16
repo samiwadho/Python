@@ -304,6 +304,155 @@ print(temp.pop)# which drop 9
 
 
 
+#for remove index we from sub list which is([6,7,8,9])
+
+
+num = [11,12,13]
+print(num)
+
+print(num[2])
+
+
+#adding one index 14
+num.append(14)
+print(num)
+
+#adding list 
+num.append([15,16,17])
+print(num)
+#finding sub list value like this [11, 12, 13, 14, [15, 16, 17]]
+print(num[4][1])
+
+#adding index trough use of extend
+num.extend([18,19])
+print(num)
+
+#INSERT NEW VALUE
+num.insert(9,20)
+print(num)
+
+print(num.index(10))
+
+
+
+
+num = [1,2]
+print(num)
+
+num.append(3)
+print(num)
+
+num.extend([4,5])
+print(num)
+
+num.append([6,7,8,9])
+print(num)
+
+print(num[4])
+
+print(num[5][2])
+
+
+
+cities = ["Karachi" ,"Qamber" ,"Larkana","Sukker"]
+
+cities_tup =("Karachi" ,"Qamber" ,"Larkana","Sukker")
+
+city_of_light = "Karachi"
+
+for C in range(len(cities)):
+    if city_of_light == cities[C]:
+        print("Found")
+    else :
+        print("not Found")
+        
+
+        
+# IN this example we are going to find city and if the city will found then it will brack on the spot
+
+cities = ["Karachi" ,"Qamber" ,"Larkana","Sukker"]
+
+city_of_light = "Karachi"
+city_of_beauty= "Sukker"
+
+for C in range(len(cities)):
+    if city_of_light.lower() == cities[C].lower():
+        print("Found")
+        break
+    elif  city_of_beauty == cities_tup:
+        print("Found")
+        break
+    else :
+        print("not Found")
+        
+        
+        
+        
+    
+cities = ["Sukker", "Kamber","Larkana","Lahore"]
+
+city_beauty = "Kamber"
+for city in range(2):
+    if city_beauty == cities[city]:
+        print("Found")
+    else :
+            print(" not Found")
+            
+            
+            
+            
+            
+temp = [1,2,3,4,5,6]
+
+sum = 2
+
+for a in range(1) :
+    
+    
+    if sum == 5 :
+        print("yes")
+    else :
+        print("No")
+        
+        
+        
+                            # 22 NEST FOR LOOP
+
+    
+first_names = ["BlueRay ", "Upchuck ", "Lojack ","Gizmo ", "Do-Rag "]
+last_names = ["Zzz", "Burp", "Dogbone", "Droop"]
+full_names = []
+print("First_name : ",first_names)
+print("Last_name : ",last_names)
+
+#.extend list
+first_names.extend(last_names)
+print("\n\nMerge list by .extend list := ",first_names)
+
+#with concantion
+Merge = first_names+last_names
+print("\n\nMerge := ", Merge)
+
+
+
+
+
+first_names = ["BlueRay ", "Upchuck ", "Lojack ","Gizmo ", "Do-Rag "]
+last_names = ["Zzz", "Burp", "Dogbone", "Droop"]
+full_names = []
+print("First_name : ",first_names)
+print("Last_name : ",last_names)
+
+# with for loop  to display list of name 
+for first_name in (first_names):
+    print("First_name =",first_name)
+
+for last_name in (last_names):
+    print("last_name =",last_name)
+    
+for  last_name in last_name:
+    full_names.append(first_name+' '+last_name)
+    print("full_names =",full_names)
 
 
 
