@@ -358,3 +358,18 @@ print(num[4])
 
 print(num[5][2])
 
+
+
+
+
+cities = ["Karachi" ,"Qamber" ,"Larkana","Sukker"]
+
+cities_tup =("Karachi" ,"Qamber" ,"Larkana","Sukker")
+
+city_of_light = "Karachi"
+
+for C in range(len(cities)):
+    if city_of_light == cities[C]:
+        print("Found")
+    else :
+        print("not Found")
