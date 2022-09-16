@@ -91,7 +91,8 @@ else:
     print('the shop is empty')
 
     
-# 15 list
+              # 15,16,17,18,19 list
+              
 temperatures = [40,44,43,39,35,34]
 
 temperatures[0]=-45
@@ -114,4 +115,31 @@ print(temperatures[5])
 #we have to remember that we calcluate value by n-1 like we want to find 6 value to above we put 7 than we find 6
 print(temperatures[-2])
 #this is inverse section
+ 
+ 
+                             # 21 for loop
+num =[1,2,3,5,]
+
+for i in num :
+    print(i)
+
+# In this program the Grade will show in horzital way
+Grade = [40,50,60,70,80,90,100]
+ 
+for assending in Grade :
+    print(assending)
+
+# In This program the temp list will printing in vertical way
+temp_karachi = [40,45,42,46,43,49,48]
+for temp in range(3):
+    print(temp_karachi)
+
+# In This program the temp list will printing in horzital way till the range you want like
+#  like here we want to print till 4
+temp_karachi = [40,45,42,46,43,49,48]
+for temp in range(4):
+    print("temp till the range we want =",temp_karachi[temp])
+    
+    
+    
  
