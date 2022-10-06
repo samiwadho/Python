@@ -455,4 +455,278 @@ for  last_name in last_name:
     print("full_names =",full_names)
 
 
+#user input table
+values = int(input('enter the value'))
+for table in range(1*11 ):
+    print(f"{table} * {values} = {table*values}")
+
+
+
+#list 20
+#1)
+MARK=[99,88,59,49,40]
+for i in range(len(MARK)):
+    print("yes")
+#2)
+cities = ["Karachi", " Qamber","Larkana"]
+city_of_sweet = "Qamber"
+city_of_light = "Karachi"
+for i in range(1):
+    if city_of_light=="Karachi":
+        print("OK")
+        continue
+    elif city_of_sweet == "Qamber":
+        print("It also ok")
+    else:
+        print("Not Found")
+
+#3)
+
+
+ind= [1,2,3]
+print(ind)
+
+
+
+ind.append(4)
+print(ind)
+
+ind.append([5,6])
+print(ind)
+
+
+ind.extend([7])
+print(ind)
+ind.extend([8,9,10])
+print(ind)
+
+ind.insert(9,11)
+print(ind)
+
+del ind[9]
+print(ind)
+
+#4)
+
+#cities
+CITY =[1,2,3,5]
+print(CITY)
+
+TEMP = ["Kar","Lar","Qam","Wadho"]
+print(TEMP)
+
+if TEMP == "Lar":
+    print("yes it has karachi")
+elif TEMP == "La":
+    print("YES IT HAS")
+else:
+    print("none")
+
+
+
+#5)
+temp = [1,2,3,4,5]
+print(temp)
+print(temp[2])
+temp.append(6)
+print(temp)
+
+temp.append([7,8,9,10])
+print(temp)
+
+temp.extend([11,12,13])
+print(temp)
+
+print(temp[6][3])
+print(temp[8])
+print(temp.index)
+
+
+
+
+#1)random key word
+
+import random 
+print(random.randint(10,90))
+
+#2)
+import random
+randomList = []
+
+for i in range(100):
+    randomList.append(random.randint(10,99))
+print(randomList)
+#3)
+import random 
+
+num=[]
+for i in range(100):
+    num.append(random.randint(0,99))
+print(num)
+#4)
+import random 
+
+num = []
+for a in range(100):
+    num.append(random.randint(10,90))
+print(num)
+
+# sum the total random number 
+total_sum = 0
+for i in num :
+    total_sum = total_sum +1
+print("i =",i)
+print("sum =",total_sum)
+
+
+
+
+
+                        #Dictory = {}
+
+#1)
+information = {
+    'name':'Sadique',
+    'father_name' : "Abdullah",
+    'age' : 15,
+    'gender' :"M",
+    'date_of_birth' : "11 June 2022"
+    }
+print(information)
+
+# finding through list index particlar variable 
+print("Name =",information['name'])
+print("age =",information['age'])
+
+
+#--------------------OR ----------------------------
+my_infor= {}
+
+my_infor['first_name']= "Sami","Ali"
+print(my_infor)
+
+
+
+
+
+
+#2)
+
+my_infor = {
+    "Name" : "Abdul Sami ",
+    "Caste" : "Wadho",
+    "Religion" : "Islam",
+    "Age" : 90,
+    "Gender" : "M"
+}
+
+print(my_infor)
+#deletng record from my_infor
+del my_infor["Age"]
+
+#insert new record
+my_infor["DOB"] = ["23/12/2001"]
+print(my_infor)
+
+#loop 
+for i in my_infor:
+    print("i",my_infor)
+    
+#3)
+    
+my_infor = {
+    "Name" : "Abdul Sami ",
+    "Caste" : "Wadho",
+    "Religion" : "Islam",
+    "Age" : 90,
+    "Gender" : "M"
+}
+#name ,caste , regligion ,age  these are key ,
+#abdul Sami Wadho ,Islam , M    thes are values
+
+#deletng record from my_infor
+del my_infor["Age"]
+
+#insert new record
+my_infor["DOB"] = ["3/2/1"]
+
+
+#for finding keys values
+for i in my_infor.keys():
+    print(my_infor) 
+
+
+
+
+#4)
+my_infor = {
+    "Name" : "Abdul Sami ",
+    "Caste" : "Wadho",
+    "Religion" : "Islam",
+    "Age" : 90,
+    "Gender" : "M"
+}
+#name ,caste , regligion ,age  these are key ,
+#abdul Sami Wadho ,Islam , M    thes are values
+
+#deletng record from my_infor
+del my_infor["Age"]
+
+#insert new record
+my_infor["DOB"] = ["3/2/1"]
+
+
+#for finding  values
+for i in my_infor.values():
+    print(my_infor) 
+
+
+#5)
+my_infor = {
+    "Name" : "Abdul Sami ",
+    "Caste" : "Wadho",
+    "Religion" : "Islam",
+    "Age" : 90,
+    "Gender" : "M"
+}
+
+
+#deletng record from my_infor
+del my_infor["Age"]
+
+#insert new record
+my_infor["DOB"] = ["3/2/1"]
+
+#name ,caste , regligion ,age  these are key ,
+#abdul Sami Wadho ,Islam , M    thes are values return list
+print(my_infor.values())
+print(my_infor.keys()) 
+    
+#for finding keys and values boths 
+#tupple = (litte,34)
+for key,value in my_infor.items():
+    print(my_infor) 
+    
+    print(key,value) 
+
+    
+    #formationg string very important search it
+#6)
+
+
+temp = [20,30,40]
+print(temp)
+
+temp.append(50)
+print(temp)
+
+temp.append([60,70])
+print(temp)
+
+temp.extend([80,90])
+print(temp)
+
+del temp[2]
+print(temp)
+
 
